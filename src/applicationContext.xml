@@ -28,6 +28,5 @@
 		</property>
 		</bean>
 		
-	<bean id="login" class="com.xuyj.boatmate.action.LoginAction"
-		scope="prototype" />
+
 </beans>
