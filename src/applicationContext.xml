@@ -25,5 +25,9 @@
 		<property name="mappingResources">
 			<list>
 				<value>model_test/UserInfo.hbm.xml</value></list>
-		</property></bean>
+		</property>
+		</bean>
+		
+	<bean id="login" class="com.xuyj.boatmate.action.LoginAction"
+		scope="prototype" />
 </beans>
