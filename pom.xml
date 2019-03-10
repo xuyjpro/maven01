@@ -299,68 +299,19 @@
 		</dependency>
 
 		
-<!-- 
-		<dependency>
-			<groupId>org.apache.struts</groupId>
-			<artifactId>struts2-core</artifactId>
-			<version>2.3.16</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.struts</groupId>
-			<artifactId>struts2-spring-plugin</artifactId>
-			<version>2.3.16</version>
-		</dependency> -->
-		<!--************Struts2****************** -->
-		<dependency>
-			<groupId>org.apache.struts</groupId>
-			<artifactId>struts2-core</artifactId>
-			<version>2.3.16</version>
-			<exclusions><!-- 与hibernate-core中的依赖重复 -->
-			  <exclusion>
-			        <groupId>javassist</groupId>
-                    <artifactId>javassist</artifactId>
-			  </exclusion>
-			</exclusions>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.struts</groupId>
-			<artifactId>struts2-convention-plugin</artifactId>
-			<version>2.3.16</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.struts.xwork</groupId>
-			<artifactId>xwork-core</artifactId>
-			<version>2.3.16</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.struts</groupId>
-			<artifactId>struts2-json-plugin</artifactId>
-			<version>2.3.16</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.struts</groupId>
-			<artifactId>struts2-spring-plugin</artifactId>
-			<version>2.3.16</version>
-			<exclusions>
-				<exclusion>
-					<groupId>org.springframework</groupId>
-					<artifactId>spring-core</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>org.springframework</groupId>
-					<artifactId>spring-beans</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>org.springframework</groupId>
-					<artifactId>spring-context</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>org.springframework</groupId>
-					<artifactId>spring-web</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
 
+		<!-- <dependency>
+			<groupId>org.apache.struts</groupId>
+			<artifactId>struts2-core</artifactId>
+			<version>2.3.34</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.struts</groupId>
+			<artifactId>struts2-spring-plugin</artifactId>
+			<version>2.3.34</version>
+		</dependency>
+ -->
+ 
 	</dependencies>
 	<build>
 		<sourceDirectory>src</sourceDirectory>

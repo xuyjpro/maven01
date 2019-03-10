@@ -20,5 +20,6 @@
 	<classpathentry kind="lib" path="F:/myeclipseworkplace/boamate/WebRoot/WEB-INF/lib/ognl-3.0.6.jar"/>
 	<classpathentry kind="lib" path="F:/myeclipseworkplace/boamate/WebRoot/WEB-INF/lib/mysql-connector-java-8.0.13.jar"/>
 	<classpathentry kind="lib" path="F:/myeclipseworkplace/maven01/WebRoot/WEB-INF/lib/derbyclient.jar"/>
+	<classpathentry kind="lib" path="F:/myeclipseworkplace/boamate/WebRoot/WEB-INF/lib/xwork-core-2.3.16.3.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
