@@ -22,11 +22,10 @@
 				</prop>
 			</props>
 		</property>
-		<property name="mappingResources">
-			<list>
-				<value>model_test/UserInfo.hbm.xml</value></list>
-		</property>
-		</bean>
-		
+	<!-- 	<property name="mappingResources">
+
+		</property> -->
+	</bean>
+
 
 </beans>
